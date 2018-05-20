@@ -1,0 +1,15 @@
+{
+    authors{
+        age
+        name
+        books
+    }
+}
+
+{
+  author(age: 60){
+    name
+    age
+    books
+  }
+}
